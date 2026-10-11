@@ -48,3 +48,16 @@ The script validates the input file and uses Linux text-processing utilities and
 - Uses Bash variables and command substitution to process log data.
 - Uses standard Linux utilities (grep, cut, sort, uniq, and wc) to extract and summarize request statistics.
 - Handles basic error cases and reports results through the terminal.
+
+## Example Output
+
+```text
+Total lines: 12
+GET requests: 8
+POST requests: 4
+404 responses: 2
+500 responses: 2
+Unique IPs: 6
+```
+
+The script prints a summary of request methods, HTTP error responses, and unique IP addresses found in the input log.
